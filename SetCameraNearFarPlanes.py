@@ -12,3 +12,5 @@ def SetCameraFarPlaneCallback():
     app = FBApplication()
     app.OnFileNewCompleted.Add(CameraFarPlaneCallback)
     app.OnFileOpenCompleted.Add(CameraFarPlaneCallback)
+
+SetCameraFarPlaneCallback()
